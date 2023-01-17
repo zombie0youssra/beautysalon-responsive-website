@@ -1,12 +1,22 @@
 
 body{
     margin: 0;
+    color: black;
+    font-family: 'Comfortaa', cursive;
 }
 
 header{
-    position: fixed;
-    background-color: rgb(255, 219, 225);
-    height: 7em;
+    background-color: #1E2D31;
+    height: 8em;
     width: 100%;
+}
+
+.logo-beautysalon{
+    height: 8em;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
 }
 
