@@ -1,0 +1,12 @@
+
+body{
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    background-color: rgb(255, 219, 225);
+    height: 7em;
+    width: 100%;
+}
+
