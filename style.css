@@ -27,14 +27,14 @@ header{
 nav{
     background-color: #1E2D31;
     color: #bd9a88;
-    width: 100%;
+    width: 100vw;
     height: 4em;
     box-shadow: #192427  0em  1em 1em 0em ;
 }
 
 nav ul li{
     list-style: none;
-    display: inline-block;
+    display: inline-block ;
     padding: 0.4em;
     font-size: 17.5px;
     font-weight: 500;
