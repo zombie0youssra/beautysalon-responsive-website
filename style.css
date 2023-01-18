@@ -1,7 +1,8 @@
 
 body{
     margin: 0;
-    color: #1E2D31;
+    color: #bd9a88;
+    background-color: #1E2D31;
     font-family: 'Comfortaa', cursive;
 }
 
@@ -9,6 +10,11 @@ header{
     background-color: #1E2D31;
     height: 8em;
     width: 100%;
+}
+
+
+.logo-beautysalon{
+    height: 10.4em;
 }
 
 .navigation-container{
@@ -20,24 +26,46 @@ header{
 
 nav{
     background-color: #1E2D31;
-    font-size: 18px;
-    color: rgb(236, 236, 236);
+    color: #bd9a88;
+    width: 100%;
+    height: 4em;
+    box-shadow: #192427  0em  1em 1em 0em ;
 }
 
 nav ul li{
     list-style: none;
     display: inline-block;
-    padding: 10px 45px;
-    font-size: 18px;
+    padding: 0.4em;
+    font-size: 17.5px;
     font-weight: 500;
+    position: relative;
 }
 
-.logo-beautysalon{
-    height: 8em;
+nav ul li:hover{
+    color: white;
 }
+
+
 
 main{
     display: flex;
     flex-direction: column;
 }
 
+.about{
+    margin-left: 2.8em;
+    margin-bottom: 3em;
+    height: 100%;
+    width: 25em;
+}
+
+.behandelingen-display-container{
+    margin-left: 2.8em;
+}
+
+
+.behandelingen-display-img{
+    height: 15em;
+    width: 25em;
+    margin-bottom: 2.2em;
+}
